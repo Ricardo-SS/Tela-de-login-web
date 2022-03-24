@@ -1,0 +1,117 @@
+/* Geral */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+}
+
+body {
+    background-image: url('../img/background2.jpeg');
+
+    background-size: auto;
+    background-position-y: 1000px;
+    background-position-x: 100%;
+    background-repeat: no;
+}
+
+textarea:focus, input:focus {   /* Revove margem ao seleciona uma caixa input */
+    outline: none;
+}
+
+a, label {
+    font-size: .8rem; /* 16 * .8 = X */
+}
+
+a:hover {       /* Cor dos links ao passar o mause */
+    color: #1a93da;
+}
+
+/* container login */
+
+#login-container {
+    background-color: #fff;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 15vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* formulario */
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-bottom: 2px solid #08558b;
+}
+
+#forgot-pass {
+    text-align: right;
+    display: block;   
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #519cff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #9900ffbb;
+    transition: .5s;
+}
+
+/* redes sociais */ 
+
+#social-container, #social-container p {
+    margin-bottom: 20px;   
+}
+
+#icones-redes-sociais img{  
+    width: 3rem; 
+}
+
+#icones-redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+
+}
+/* registrar */
+
+#register-container p {
+    margin-bottom: 10px;
+}
