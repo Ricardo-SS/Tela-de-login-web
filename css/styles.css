@@ -10,12 +10,20 @@
 }
 
 body {
+    background: url(../img/background2.jpeg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /*
     background-image: url('../img/background2.jpeg');
 
     background-size: auto;
     background-position-y: 1000px;
     background-position-x: 100%;
     background-repeat: no;
+    */
 }
 
 textarea:focus, input:focus {   /* Revove margem ao seleciona uma caixa input */
