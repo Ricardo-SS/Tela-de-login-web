@@ -10,20 +10,21 @@
 }
 
 body {
+
+    /*
+    background: url(../img/background2.jpeg) no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    */
+
     background: url(../img/background2.jpeg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
-    /*
-    background-image: url('../img/background2.jpeg');
-
-    background-size: auto;
-    background-position-y: 1000px;
-    background-position-x: 100%;
-    background-repeat: no;
-    */
 }
 
 textarea:focus, input:focus {   /* Revove margem ao seleciona uma caixa input */
@@ -42,11 +43,12 @@ a:hover {       /* Cor dos links ao passar o mause */
 
 #login-container {
     background-color: #fff;
-    width: 400px;
+    width: 350px;
+    height: 528px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px 30px;
-    margin-top: 15vh;
+    margin-top: 10vh;
     border-radius: 10px;
     text-align: center;
 }
@@ -55,7 +57,7 @@ a:hover {       /* Cor dos links ao passar o mause */
 
 form {
     margin-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 label, input {
