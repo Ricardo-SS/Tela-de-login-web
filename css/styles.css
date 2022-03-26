@@ -19,11 +19,13 @@ body {
     background-size: 100% 100%;
     */
 
-    background: url(../img/background2.jpeg) no-repeat center center;
+    background: url(../img/background2.jpeg) center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 
@@ -36,21 +38,33 @@ a, label {
 }
 
 a:hover {       /* Cor dos links ao passar o mause */
-    color: #1a93da;
+    color: #08558b;
 }
 
 /* container login */
 
+#container {    /*criado div para o card de login */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10vh;   /*define margem superior baseado na tela */
+}
+
 #login-container {
-    background-color: #fff;
+    background-color: #fceef6c2;
     width: 350px;
     height: 528px;
+    /*
     margin-left: auto;
     margin-right: auto;
+    */
     padding: 20px 30px;
+    /*
     margin-top: 10vh;
-    border-radius: 10px;
+    */
+    border-radius: 12px;    /* Suavisa os cantos do card */
     text-align: center;
+    box-shadow: 3px 3px 1px 0px 00000070;   /* Cria uma sobra no card */
 }
 
 /* formulario */
@@ -71,6 +85,8 @@ label {
 }
 
 input {
+    background-color: #ffffff20;    /* Cor de fundo do iput e opacidade */
+    border-radius: 5px;
     border-bottom: 2px solid #323232;
     padding: 10px;
     font-size: 1rem;
@@ -86,6 +102,8 @@ input:focus {
     display: block;   
 }
 
+/* Botao de login */
+
 input[type="submit"] {
     text-align: center;
     text-transform: uppercase;
@@ -94,13 +112,13 @@ input[type="submit"] {
     height: 40px;
     border-radius: 20px;
     margin-top: 30px;
-    color: #fff;
-    background-color: #519cff;
+    color: #ffffff;
+    background-color: #2d85f8;
     cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #9900ffbb;
+    background-color: #ff5100ea;
     transition: .5s;
 }
 
