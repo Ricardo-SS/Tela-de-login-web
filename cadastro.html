@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cadastro</title>
+        <link rel="shortcut icon" href="icon/favicon.png">
+        <link rel="stylesheet" href="css/styles-cadastro.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"> 
+                    <img src="img/fit-logo-1.png" width="60" height="50">
+                </a>
+            </div> 
+            <div class="title">Cadastro</div>
+            <form action="#">
+                <div class="user-details">
+                    <div class="=input-box">
+                        <span class="details">Nome completo</span>
+                        <input type="text" placeholder="Nome completo" required>
+                    </div>
+                    <div class="=input-box">
+                        <span class="details">Usuário</span>
+                        <input type="text" placeholder="Nome de usuário" required>
+                    </div>
+                    <div class="=input-box">
+                        <span class="details">E-mail</span>
+                        <input type="text" placeholder="E-mail" required>
+                    </div>
+                    <div class="=input-box">
+                        <span class="details">Telefone</span>
+                        <input type="text" placeholder="Número de telefone" required>
+                    </div>
+                    <div class="=input-box">
+                        <span class="details">Senha</span>
+                        <input type="password" placeholder="Digite uma senha" required>
+                    </div>
+                    <div class="=input-box">
+                        <span class="details">Confirmar senha</span>
+                        <input type="password" placeholder="Confirme sua senha" required>
+                    </div>
+                </div>
+                <div class="gender-details">
+                    <span class="gender-title">Genero</span>
+                    <div class="category">
+                        <label for="">
+                            <input type="radio" name="select" value="1">
+                            <span class="genero">Masculino</span>
+                        </label>
+                        <label for="">
+                            <input type="radio" name="select" value="2">
+                            <span class="genero">Feminino</span>
+                        </label>
+                        <label for="">
+                            <input type="radio" name="select" value="3">
+                            <span calss="genero">Prefiro não informar</span>
+                        </label>
+                        <hr>
+                        <label for="">
+                            <input type="checkbox" name="politica" value="checkbox" >
+                            <span calss="genero">li e aceitos as <a href="#">politicas de privacidade.</a></span>
+                        </label>  
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Registrar-se" >
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
