@@ -1,0 +1,176 @@
+/* Geral */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'poppins', Helvetica;
+    color: #323232;
+    border: none;
+}
+
+body {
+
+    background: url(../img/cadastro2.jpeg) center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin-top: center;
+    align-items: center;
+    padding: 10px;
+    
+
+}
+
+textarea:focus, input:focus {   /* Revove margem ao seleciona uma caixa input */
+    outline: none;
+}
+
+a, label {
+    font-size: .8rem; /* 16 * .8 = X */
+}
+
+a:hover {       /* Cor dos links ao passar o mause */
+    color: #08558b;
+}
+/* Logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.container{
+    background-color: #ffffffc2;
+    max-width: 700px;
+    width: 100%;
+    border-radius: 12px;    /* Suavisa os cantos do card */
+    padding: 30px 30px;
+    text-align: left;
+    box-shadow: 2px 2px 1px 0px #00000050;  /* Cria uma sombra no card */
+}
+/* formatação do titulo cadastro */
+.container .title {
+    font-size: 1.5rem;
+    font-weight: 500;   /* espessura da fonte */
+    position: relative;
+}
+/* traço em degrader abaixo do nome cadastro */
+.container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg, #000000, #F05B32);
+}
+/* Alinhas os inputs na vertical */
+.container form .user-details{
+    display: -webkit-flex;  
+    display: flex;
+    flex-wrap: wrap; /* mantem os inputs dentro do card*/
+    justify-content: space-between;
+
+}
+
+/* coloca os inputs em duas colunas 
+form .user-details .input-box{
+    margin: 30px 0px 12px 0px;
+    width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+}
+
+*/
+
+
+form {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+label, input {
+    display: flex;
+    width: 44vh;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    background-color: #ffffff20; 
+    border-radius: 5px;
+    border-bottom: 2px solid #323232;
+    padding: .5rem;
+    font-size: .9rem;
+    margin-bottom: 10px;
+}
+
+input:focus {
+    border-bottom: 2px solid #08558b;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+
+}
+
+input[type="submit"] {
+    display:flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background: linear-gradient(135deg, #000000, #F05B32);
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(-135deg, #000000, #F05B32);
+    transition: .5s;
+}
+input[type="radio"]{
+    text-align: left;
+    border: none;
+    width: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+input[type="checkbox"]{
+    text-align: left;
+    border: none;
+    width: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    cursor: pointer;
+}
