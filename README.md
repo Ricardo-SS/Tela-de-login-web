@@ -10,8 +10,12 @@
 <a href="https://ricardo-ss.github.io/Tela-de-login-web/">Link de demonstração</a>
   <hr>
 
+  Captura_de_Tela_Cadastro.png
+
 # Captura de tela
-<img src="https://github.com/Ricardo-SS/Tela-de-login-web/blob/main/Captura%20de%20Tela.png">
+<img src="https://github.com/Ricardo-SS/Tela-de-login-web/blob/main/Captura_de_Tela.png">
+<hr>
+<img src="https://github.com/Ricardo-SS/Tela-de-login-web/blob/main/Captura_de_Tela_Cadastro.png">
 
 # Descrição
 
@@ -19,9 +23,23 @@
 - Link para recuperação de senha
 - Link para cadastro
 
+# Atualização 19/04/2022
+
+- Adicionando tela de cadastro (em desenvolvimento)
+- Substituido nome login no topo do carde por logo
+- Adicionado transparencia ao card de login
+- Mudança de cores do botão login
+- Alterado icones de redes sociais
+- Alterado nome de arquivo css e criado novo css para tela de cadastro
+
+
 # Futuras atualizações
 
-- Adicionar uma tela de cadastro
+- Adicionar tela de redefinição de senha.
+
+# Bugs conhecidos
+
+- Tela de cadastro não esta redimencionando corretamente em dispositivos moveis.
 
 # Tecnologias
 
